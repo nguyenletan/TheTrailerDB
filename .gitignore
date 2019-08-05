@@ -1,0 +1,16 @@
+.DS_Store
+/node_modules/
+/src/node_modules/@sapper/
+yarn-error.log
+/cypress/screenshots/
+/__sapper__/
+/.idea/.gitignore
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/dbnavigator.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/dictionaries/nguyenlet.xml
+/.idea/codeStyles/Project.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/sapper-movie.iml
+/.idea/vcs.xml

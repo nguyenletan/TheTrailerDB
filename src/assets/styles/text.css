@@ -1,0 +1,48 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+#sapper h1 {
+  font-size: 1.9rem;
+  line-height: 1;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  margin-bottom: calc(var(--global-space) * 3);
+  margin-top: calc(var(--global-space) * 4);
+  display: block;
+  font-weight: 700;
+}
+
+#sapper h2 {
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.primary-text {
+  color: var(--primary-color);
+}
+
+.secondary-text {
+  color: var(--secondary-color);
+}
+
+.tertiary-text {
+  color: var(--tertiary-color);
+}
+
+.warning-text {
+  color: var(--warning-color);
+}
+
+.error-text {
+  color: var(--error-color);
+}
+
+.highlight-text {
+  color: var(--highlight-color);
+}

@@ -1,0 +1,45 @@
+.nav-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: var(--background-color);
+}
+nav {
+  border: 1px solid var(--border-color);
+  font-weight: 700;
+  line-height: 2.5rem;
+  padding-right: 8px;
+}
+
+nav .terminal-menu li a:not(.btn) {
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+nav .terminal-menu ul {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.selected {
+  position: relative;
+  display: inline-block;
+}
+
+.selected::after {
+  position: absolute;
+  content: '';
+  width: calc(100% - 1em);
+  height: 2px;
+  background-color: var(--primary-color);
+  display: block;
+  bottom: -1px;
+}
+
+a {
+    text-decoration: none;
+    padding: 1em 0.5em;
+    display: block;
+
+}

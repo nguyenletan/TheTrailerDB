@@ -1,0 +1,88 @@
+.charts .chart {
+  width: 100%;
+  margin-top: 3.5rem !important;
+}
+
+.progress-bar-filled::after {
+  top: -42px;
+  font-size: 0.9rem;
+}
+
+.progress-bar-filled.primary-color {
+  background-color: var(--primary-color);
+}
+.progress-bar-filled.primary-color::after {
+  color: var(--primary-color);
+}
+.progress-bar-filled.primary-color::before {
+  color: var(--primary-color);
+}
+
+.progress-bar-filled.tertiary-color {
+  background-color: var(--tertiary-color);
+}
+/*.progress-bar-filled.tertiary-color.stripe{
+  background: repeating-linear-gradient(
+    to right,
+    var(--tertiary-color),
+    var(--tertiary-color) 10px,
+    #ffd180 10px,
+    #ffd180 20px
+  );
+}*/
+.progress-bar-filled.tertiary-color::after {
+  color: var(--tertiary-color);
+}
+.progress-bar-filled.tertiary-color::before {
+  border-top-color: var(--tertiary-color);
+}
+
+.progress-bar-filled.secondary-color {
+  background-color: var(--secondary-color);
+}
+.progress-bar-filled.secondary-color::after {
+  color: var(--secondary-color);
+}
+.progress-bar-filled.secondary-color::before {
+  border-top-color: var(--secondary-color);
+}
+
+.progress-bar-filled.highlight-color {
+  background-color: var(--highlight-color);
+}
+.progress-bar-filled.highlight-color::after {
+  color: var(--highlight-color);
+}
+.progress-bar-filled.highlight-color::before {
+  border-top-color: var(--highlight-color);
+}
+
+.progress-bar-filled.warning-color {
+  background-color: var(--warning-color);
+}
+.progress-bar-filled.warning-color::after {
+  color: var(--warning-color);
+}
+.progress-bar-filled.warning-color::before {
+  border-top-color: var(--warning-color);
+}
+
+.progress-bar.lg {
+  height: 50px;
+}
+
+.progress-bar.xl {
+  height: 60px;
+}
+
+.progress-bar.md {
+  height: 40px;
+}
+
+.progress-bar.sm {
+  height: 30px;
+}
+
+.progress-bar.xs {
+  height: 18px;
+}

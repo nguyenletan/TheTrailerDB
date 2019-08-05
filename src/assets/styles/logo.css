@@ -1,0 +1,54 @@
+
+.terminal-logo {
+  display: flex;
+}
+
+.terminal-logo a {
+  padding: 0;
+  margin: 0;
+  color: inherit;
+}
+.terminal-logo a:hover {
+  background: inherit;
+  color: inherit;
+}
+
+
+.square {
+  height: 72px;
+  width: 72px;
+  margin: 0;
+  border: 1px solid var(--border-color);
+  border-left: 0;
+  border-bottom: 0;
+  text-align: center;
+  line-height: 72px;
+  font-weight: 700;
+  font-size: 1.7rem;
+  position: relative;
+}
+
+.square::first-letter {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.square.no-initial-letter {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.square.no-initial-letter:first-letter {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.square .sub {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 0.7rem;
+  font-weight: 300;
+  line-height: 1;
+  color: var(--font-color);
+}

@@ -1,0 +1,107 @@
+.movie .content {
+  width: 100%;
+  padding-bottom: 40px;
+  display: flex;
+  flex: 1 1 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  /*background-image: radial-gradient(
+                        circle at 20% 50%,
+                        rgba(13.73%, 18.43%, 17.25%, 0.98) 0%,
+                        rgba(21.96%, 24.31%, 23.53%, 0.88) 100%);*/
+}
+
+.movie .image_content {
+  width: auto;
+  height: 450px;
+  margin-bottom: 1.5rem;
+}
+
+.movie .image_content img {
+  width: 100%;
+}
+
+.info {
+  width: calc((var(--page-width)) / 1.535);
+}
+
+.info p {
+  margin-top: var(--global-line-height);
+}
+
+.info section {
+  margin-bottom: 2rem;
+}
+
+.info .genres {
+}
+
+.info .production-companies ul.product-company-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  flex: 1 0 auto;
+  flex-wrap: wrap;
+}
+
+.info .production-companies .product-company-list li {
+  margin: 0.6rem;
+  padding-left: 0;
+}
+
+.info .production-companies .product-company-list li:after {
+  content: "";
+}
+
+.info .production-companies ul li:nth-child(n) .logo-wrapper {
+  background-color: var(--primary-color);
+}
+.info .production-companies ul li:nth-child(2n) .logo-wrapper {
+  background-color: var(--secondary-color);
+}
+.info .production-companies ul li:nth-child(3n) .logo-wrapper {
+  background-color: var(--tertiary-color);
+}
+.info .production-companies ul li:nth-child(4n) .logo-wrapper {
+  background-color: var(--highlight-color);
+}
+.info .production-companies ul li:nth-child(5n) .logo-wrapper {
+  background-color: var(--warning-color);
+}
+.info .production-companies ul li:nth-child(5n) .logo-wrapper {
+  background-color: var(--error-color);
+}
+
+.info .production-companies .logo-wrapper {
+  width: 150px;
+  height: 100%;
+  min-height: 245px;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.info .production-companies .logo {
+  max-width: 150px;
+  height: auto;
+  margin: 0;
+  color: var(--invert-font-color);
+  text-transform: uppercase;
+  text-align: center;
+  padding: calc(var(--global-space) * 1.681) var(--global-space);
+}
+
+.charts,
+.trailers {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.charts hr,
+.trailers hr {
+  margin-top: 1rem;
+}

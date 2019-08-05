@@ -1,0 +1,1 @@
+export const MAX_VOTE_COUNT = 15000;

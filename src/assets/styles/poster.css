@@ -1,0 +1,106 @@
+.movies-list {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+
+.movies-list li {
+  list-style-type: none;
+  padding: 0;
+  position: static;
+}
+.movies-list li::after {
+  content: "";
+}
+
+.poster {
+  display: flex;
+  align-items: center;
+  width: calc(var(--page-width) / 2.15);
+  box-sizing: border-box;
+  font-size: 0.8rem;
+  border: 1px solid var(--border-color);
+  text-align: left;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  flex: 0 1 auto;
+}
+
+.poster .image_content {
+  width: 185px;
+  height: auto;
+  overflow: hidden;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+.poster h2 {
+  margin-bottom: 1rem;
+  height: 2.8rem;
+  font-size: 1.2rem !important;
+  line-height: 1.2 !important;
+  overflow: hidden;
+}
+
+.poster a {
+  padding: 0;
+  text-transform: uppercase;
+  display: inline;
+  font-weight: 700;
+}
+
+.poster .image_content a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 0;
+  padding: 0;
+}
+
+.poster .image_content img {
+  width: auto;
+  height: 278px;
+  line-height: 1;
+  text-align: center;
+}
+
+.poster .info {
+  width: calc(100% / 1.618);
+  height: 278px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px 16px 16px 16px;
+  overflow: hidden;
+  border-left: 1px solid var(--border-color);
+}
+
+.poster .release-date {
+  font-weight: 400;
+  font-style: italic;
+  color: var(--secondary-color);
+}
+
+.poster .overview {
+  max-height: 112px;
+  overflow: hidden;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.poster .view_more {
+  border-top: 1px solid var(--border-color);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 16px;
+  margin: 0;
+  width: 100%;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.poster .info .wrapper {
+  display: flex;
+}
