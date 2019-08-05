@@ -2,8 +2,8 @@ import ApolloClient, { gql } from "apollo-boost";
 
 export const client = new ApolloClient({
   // uri: "https://movie-apollo-vs.azurewebsites.net/"
-  uri: "http://localhost:4000/"
-  // uri: "https://movie-apollo.herokuapp.com/"
+  // uri: "http://localhost:4000/"
+  uri: "https://movie-apollo.herokuapp.com/"
 });
 
 export const MOVIES = gql`
